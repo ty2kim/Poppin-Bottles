@@ -32,8 +32,8 @@ var poppinBottles = function(money){
 		curRedeemed = redeemedByBottles + redeemedByCaps;
 		totalRedeemedByBottles += redeemedByBottles;
 		totalRedeemedByCaps += redeemedByCaps;
-    console.log(`Number of redeemed bottles from recycling bottles: ${redeemedByBottles}`);
-    console.log(`Number of redeemed bottles from recycling caps: ${redeemedByCaps}`);
+                console.log(`Number of redeemed bottles from recycling bottles: ${redeemedByBottles}`);
+                console.log(`Number of redeemed bottles from recycling caps: ${redeemedByCaps}`);
 		console.log(`Number of redeemed bottles: ${curRedeemed}`);
 
 		bottlesLeft = bottles % 2;
