@@ -1,7 +1,7 @@
 'use strict';
 
 var poppinBottles = function(money){
-	console.log(`Your investment: $${money}`);
+	console.log(`Your Investment: $${money}`);
 
 	if(money < 2){
 		console.log("The minimum investment is $2");
