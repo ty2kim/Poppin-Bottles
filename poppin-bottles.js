@@ -50,7 +50,6 @@ var poppinBottles = function(money){
 			break;
 		}
 	}
-
 	console.log("<Recycle Report>");
 	console.log(`Your investment: $${money}`);
 	console.log(`${money/2} bottles were purchased`);
